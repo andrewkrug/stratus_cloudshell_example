@@ -22,13 +22,13 @@ Stratus Red Team is an open-source framework that allows security teams to simul
 ### One-Line Installation
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/andrewkrug/stratus-cloudshell-setup/main/setup-stratus.sh | bash
+curl -fsSL https://raw.githubusercontent.com/andrewkrug/stratus_cloudshell_example/refs/heads/main/setup-stratus.sh | bash
 ```
 
 Or clone and run manually:
 
 ```bash
-git clone https://github.com/andrewkrug/stratus-cloudshell-setup.git
+git clone https://github.com/andrewkrug/stratus_cloudshell_example.git
 cd stratus-cloudshell-setup
 chmod +x setup-stratus.sh
 ./setup-stratus.sh
