@@ -46,7 +46,7 @@ install_stratus() {
 
     # Get the latest release URL
     STRATUS_URL=$(curl -s https://api.github.com/repos/DataDog/stratus-red-team/releases/latest | \
-                  jq -r '.assets[] | select(.name | contains("linux") and contains("amd64")) | .browser_download_url')
+                  jq -r '.assets[] | select(.name | contains("Linux") and contains("x86_64")) | .browser_download_url')
 
     if [ -z "$STRATUS_URL" ]; then
         echo "❌ Failed to get Stratus Red Team download URL"
